@@ -1,0 +1,8 @@
+project: savantenvs/icu
+target: collator_compare_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/collator_compare_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/collator_compare_fuzzer
+    libfuzzer: true

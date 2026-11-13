@@ -1,0 +1,5 @@
+project: savantenvs/icu
+target: uprop_fuzzer
+cmds:
+  - cmd: /mayhem/uprop_fuzzer
+    libfuzzer: true

@@ -1,0 +1,26 @@
+upper=STRASSE
+upper_tr=İI
+title=Hello World
+nfc_len=1 nfc_cp=00E9
+nfkc=fi
+nfd_len=2
+coll_en=-1 1
+coll_sv=-1
+coll_en_z_o=1
+num_us=1,234,567.891
+num_de=1.234.567,891
+date_us=Jan 1, 1971, 12:00:00 AM
+skeleton_yMd_us=M/d/y
+skeleton_yMd_de=d.M.y
+cal=1970-1-1 dow=5
+word_segments=10
+sentences=3
+plural_ru=one,few,many,one
+re_g1=42
+re_g2=abc
+canon=en_US_POSIX
+langtag=zh_Hant_TW@calendar=roc
+likely=sr_Cyrl_RS
+rtl=1,0
+uchar=1 1 17
+status=U_ZERO_ERROR

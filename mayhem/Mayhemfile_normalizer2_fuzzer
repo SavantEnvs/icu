@@ -1,0 +1,5 @@
+project: savantenvs/icu
+target: normalizer2_fuzzer
+cmds:
+  - cmd: /mayhem/normalizer2_fuzzer
+    libfuzzer: true

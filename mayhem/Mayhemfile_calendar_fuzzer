@@ -1,0 +1,5 @@
+project: savantenvs/icu
+target: calendar_fuzzer
+cmds:
+  - cmd: /mayhem/calendar_fuzzer
+    libfuzzer: true

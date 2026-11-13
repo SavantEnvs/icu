@@ -1,0 +1,5 @@
+project: savantenvs/icu
+target: decimal_format_symbols_fuzzer
+cmds:
+  - cmd: /mayhem/decimal_format_symbols_fuzzer
+    libfuzzer: true

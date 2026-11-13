@@ -1,0 +1,6 @@
+project: savantenvs/icu
+target: uregex_open_fuzzer
+cmds:
+  - cmd: /mayhem/uregex_open_fuzzer
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/uregex_open_fuzzer/uregex_open_fuzzer.dict

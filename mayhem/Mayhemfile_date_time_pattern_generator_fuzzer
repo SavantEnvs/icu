@@ -1,0 +1,5 @@
+project: savantenvs/icu
+target: date_time_pattern_generator_fuzzer
+cmds:
+  - cmd: /mayhem/date_time_pattern_generator_fuzzer
+    libfuzzer: true

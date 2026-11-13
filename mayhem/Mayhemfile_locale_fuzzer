@@ -1,0 +1,5 @@
+project: savantenvs/icu
+target: locale_fuzzer
+cmds:
+  - cmd: /mayhem/locale_fuzzer
+    libfuzzer: true

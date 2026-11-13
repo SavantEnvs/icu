@@ -1,0 +1,5 @@
+project: savantenvs/icu
+target: unicodeset_fuzzer
+cmds:
+  - cmd: /mayhem/unicodeset_fuzzer
+    libfuzzer: true

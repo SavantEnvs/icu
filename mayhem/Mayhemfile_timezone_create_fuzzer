@@ -1,0 +1,5 @@
+project: savantenvs/icu
+target: timezone_create_fuzzer
+cmds:
+  - cmd: /mayhem/timezone_create_fuzzer
+    libfuzzer: true

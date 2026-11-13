@@ -1,0 +1,5 @@
+project: savantenvs/icu
+target: plurrule_fuzzer
+cmds:
+  - cmd: /mayhem/plurrule_fuzzer
+    libfuzzer: true

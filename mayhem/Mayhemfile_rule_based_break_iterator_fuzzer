@@ -1,0 +1,5 @@
+project: savantenvs/icu
+target: rule_based_break_iterator_fuzzer
+cmds:
+  - cmd: /mayhem/rule_based_break_iterator_fuzzer
+    libfuzzer: true

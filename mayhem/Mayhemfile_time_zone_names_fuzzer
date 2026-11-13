@@ -1,0 +1,5 @@
+project: savantenvs/icu
+target: time_zone_names_fuzzer
+cmds:
+  - cmd: /mayhem/time_zone_names_fuzzer
+    libfuzzer: true

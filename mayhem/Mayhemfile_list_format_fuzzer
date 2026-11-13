@@ -1,0 +1,5 @@
+project: savantenvs/icu
+target: list_format_fuzzer
+cmds:
+  - cmd: /mayhem/list_format_fuzzer
+    libfuzzer: true

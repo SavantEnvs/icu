@@ -1,0 +1,8 @@
+project: savantenvs/icu
+target: uloc_open_keywords_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/uloc_open_keywords_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/uloc_open_keywords_fuzzer
+    libfuzzer: true

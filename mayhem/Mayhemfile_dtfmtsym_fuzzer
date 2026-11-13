@@ -1,0 +1,5 @@
+project: savantenvs/icu
+target: dtfmtsym_fuzzer
+cmds:
+  - cmd: /mayhem/dtfmtsym_fuzzer
+    libfuzzer: true

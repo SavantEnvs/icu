@@ -1,0 +1,8 @@
+# Per-Dockerfile ignore for `docker build -f mayhem/Dockerfile .`; keeps .git (the grader needs full history).
+mayhem/build/
+/*_fuzzer
+/*_fuzzer-standalone
+/ctrf-report.json
+.DS_Store
+*.swp
+*~

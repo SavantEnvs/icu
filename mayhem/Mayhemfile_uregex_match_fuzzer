@@ -1,0 +1,5 @@
+project: savantenvs/icu
+target: uregex_match_fuzzer
+cmds:
+  - cmd: /mayhem/uregex_match_fuzzer
+    libfuzzer: true

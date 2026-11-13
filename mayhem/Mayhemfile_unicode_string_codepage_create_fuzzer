@@ -1,0 +1,5 @@
+project: savantenvs/icu
+target: unicode_string_codepage_create_fuzzer
+cmds:
+  - cmd: /mayhem/unicode_string_codepage_create_fuzzer
+    libfuzzer: true

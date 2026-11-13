@@ -1,0 +1,5 @@
+project: savantenvs/icu
+target: ucasemap_fuzzer
+cmds:
+  - cmd: /mayhem/ucasemap_fuzzer
+    libfuzzer: true

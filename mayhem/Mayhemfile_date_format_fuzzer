@@ -1,0 +1,5 @@
+project: savantenvs/icu
+target: date_format_fuzzer
+cmds:
+  - cmd: /mayhem/date_format_fuzzer
+    libfuzzer: true

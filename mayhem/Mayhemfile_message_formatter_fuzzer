@@ -1,0 +1,5 @@
+project: savantenvs/icu
+target: message_formatter_fuzzer
+cmds:
+  - cmd: /mayhem/message_formatter_fuzzer
+    libfuzzer: true

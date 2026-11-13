@@ -1,0 +1,5 @@
+project: savantenvs/icu
+target: converter_fuzzer
+cmds:
+  - cmd: /mayhem/converter_fuzzer
+    libfuzzer: true

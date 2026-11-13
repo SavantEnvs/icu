@@ -1,0 +1,5 @@
+project: savantenvs/icu
+target: number_formatter_fuzzer
+cmds:
+  - cmd: /mayhem/number_formatter_fuzzer
+    libfuzzer: true

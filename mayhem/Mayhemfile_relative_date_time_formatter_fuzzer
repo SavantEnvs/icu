@@ -1,0 +1,5 @@
+project: savantenvs/icu
+target: relative_date_time_formatter_fuzzer
+cmds:
+  - cmd: /mayhem/relative_date_time_formatter_fuzzer
+    libfuzzer: true
